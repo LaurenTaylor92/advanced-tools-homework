@@ -94,3 +94,45 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.text-start {
+  text-align: left;
+}
+.d-none {
+  display: none !important;
+}
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .text-start {
+    text-align: center !important;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+@media (min-width: 576px) {
+  .d-sm-block {
+    display: block !important;
+  }
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
