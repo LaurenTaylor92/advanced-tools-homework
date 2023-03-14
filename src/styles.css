@@ -101,7 +101,7 @@ p {
   display: none !important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1,
   h2,
   p {
@@ -127,7 +127,7 @@ p {
     margin: 0 20px;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .d-sm-block {
     display: block !important;
   }
