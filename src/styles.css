@@ -116,6 +116,9 @@ p {
   h2 {
     font-size: 32px;
   }
+  .email-link {
+    font-size: 20px;
+  }
 
   .text-start {
     text-align: center !important;
@@ -131,7 +134,7 @@ p {
   .d-sm-block {
     display: block !important;
   }
-  .col-sm-6 {
+  .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
   }
